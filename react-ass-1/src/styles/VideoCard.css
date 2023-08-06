@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(195, 152, 229);
+  /* color: blue; */
+  padding: 0;
+}
+h3 {
+  font-size: 1.4rem;
+}
+.videoCard {
+  width: 470px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  transform: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out opacity 0.3s ease-in-out;
+}
+.videoCard:hover {
+  transform: translateY(-5%);
+}
+.channel-details {
+  display: flex;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+  background-color: black;
+}
+.channel-scope {
+  margin: 5px;
+  height: 50px;
+  border: 2px solid green;
+  border-radius: 50%;
+  background-color: rgb(113, 181, 237);
+}
+.channel-name {
+  font-weight: 500;
+  margin: 5px;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text;
+}
+.thumbnail-scope {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 3px 3px 3px 3px;
+  /* box-shadow: 10px 10px 12px 5px #555; */
+  border: 2px solid green;
+}
+div.videoCard-details {
+  background-color: black;
+  border-radius: 0 0 8px 8px;
+}
+.videoCard-details {
+  padding: 10px;
+  background-color: black;
+}
+.videoCard-title {
+  color: #fff;
+  background-color: black;
+  margin: 1px;
+}
+.videoCard-desc {
+  background-color: black;
+}
+.videoCard-desc span {
+  color: #979393;
+  background-color: black;
+}
+#separator {
+  font-size: 30px;
+}
